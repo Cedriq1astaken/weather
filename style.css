@@ -27,3 +27,16 @@ body{
 .block-child{
     float: left;
 }
+footer{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 1px;
+    border: var(--black) solid 3px;
+    box-shadow: 4px 4px 0px var(--black);
+    background-color: var(--beige);
+}
