@@ -1,0 +1,29 @@
+:root{
+    --black: #000000;
+    --green: #44AF69;
+    --blue: #A9E4EF;
+    --beige: #F5FBEF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Pixelify Sans;
+    color: var(--black);
+}
+body{
+    background-color: var(--blue);
+}
+#block{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    padding-left: 1px;
+    border: var(--black) solid 3px;
+    box-shadow: 4px 4px 0px var(--black);
+    background-color: var(--beige);
+}
+.block-child{
+    float: left;
+}
